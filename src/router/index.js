@@ -3,11 +3,8 @@ import {
     Redirect
 } from "react-router-dom";
 
-
 import Home from '../pages/home';
-import Friend from '../pages/friend';
-
-
+import Profile from '../pages/profile';
 
 const routes = [{
         path: "/",
@@ -21,8 +18,8 @@ const routes = [{
         component: Home
     },
     {
-        path: "/friend",
-        component: Friend
+        path: "/profile",
+        component: Profile
     },
 ]
 

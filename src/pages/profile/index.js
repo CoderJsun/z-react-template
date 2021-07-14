@@ -1,10 +1,10 @@
 import React, { PureComponent } from 'react'
 
-export default class Friend extends PureComponent {
+export default class Profile extends PureComponent {
     render() {
         return (
             <div>
-                Friend
+                Profile
             </div>
         )
     }
